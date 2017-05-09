@@ -1,0 +1,2 @@
+# OptoGraphs
+Two R functions were designed to create two simple assays for testing the Optomotor and optokinetic response of larval fish. This is short vignette to describe the steps of two methods to create a .gif image in R. The first method, described in the Circular Assay, is by creating several .png images and turning them into .gif or .avi files using ImageJ. The second method, described in Stripe Assay, utilizes ImageMagick package by creating a .gif through the command line. Please note that each assay has code for both types of saving methods.
