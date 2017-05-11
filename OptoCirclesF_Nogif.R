@@ -1,4 +1,4 @@
-## OptoCirclesF.R ##
+## OptoCirclesF_Nogif.R ##
 
 # This funcition creates 36 images that contain six wedged circles. Images are then compiled into a .gif file and can be played as a moving image for optokinetic or optomoter responce assays. This designed to test the optokinetic and optomoter responces of larval fish in 6 well plates.  
 
@@ -29,7 +29,7 @@
 ##############################################
 ## The Code ##
 
-OptoCirclesF <- function(WedgesNum,ColorSr= c("black","White"), Reverse=FALSE)  {
+OptoCirclesF_Nogif <- function(WedgesNum,ColorSr= c("black","White"), Reverse=FALSE)  {
   
   # Make wedges into an even number
   if(WedgesNum %% 2 != 0){WedgesNum = WedgesNum+1}

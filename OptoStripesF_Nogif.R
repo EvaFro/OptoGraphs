@@ -1,4 +1,4 @@
-## OptoStripesF.R ##
+## OptoStripesF_Nogif.R ##
 
 # This funcition creates several images that contain stripes. Images are then compiled into a .gif file and can be played as a moving image for optokinetic or optomoter responce assays. This designed to test the optokinetic and optomoter responces of larval fish in raceways.  
 
@@ -31,7 +31,7 @@
 ##############################################
 ## The Code ##
 
-OptoStripesF <- function(BarWidth,ColorSr= c("black","white"), Reverse=FALSE)  {
+OptoStripesF_Nogif <- function(BarWidth,ColorSr= c("black","white"), Reverse=FALSE)  {
     
     # This is the sequences to create the rectangle graphs So we need a front half and a back half
     j <- seq(0,100,by=BarWidth) 
